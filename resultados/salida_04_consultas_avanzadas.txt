@@ -1,0 +1,64 @@
+
+==================== A1. Perfil epidemiologico: hospitalizaciones por subregion y capitulo CIE-10 ====================
+subregion: Valle de Aburra | total: 20 | capitulos: [Respiratorio=9, Circulatorio=6, Infecciosas=2, Digestivo=1, Endocrino=1, Genitourinario=1]
+subregion: Uraba | total: 9 | capitulos: [Infecciosas=6, Genitourinario=2, Endocrino=1]
+subregion: Oriente | total: 3 | capitulos: [Digestivo=2, Respiratorio=1]
+subregion: Bajo Cauca | total: 2 | capitulos: [Infecciosas=2]
+subregion: Magdalena Medio | total: 1 | capitulos: [Infecciosas=1]
+subregion: Occidente | total: 1 | capitulos: [Circulatorio=1]
+
+==================== A2. Reingresos a 30 dias (ventana por paciente con $setWindowFields) ====================
+paciente: Héctor Darío Jaramillo Builes | anterior: HOSP-2026-0026 (E11.1) | reingreso: HOSP-2026-0033 (N39.0) | dias_desde_alta: 10 | mismo_dx: false
+paciente: Martha Lucía Álvarez Restrepo | anterior: HOSP-2026-0022 (J18.9) | reingreso: HOSP-2026-0025 (J18.9) | dias_desde_alta: 11 | mismo_dx: true
+paciente: Jorge Eliécer Muñoz Pérez | anterior: HOSP-2026-0009 (J44.1) | reingreso: HOSP-2026-0013 (J44.1) | dias_desde_alta: 12 | mismo_dx: true
+paciente: Rosa Elvira Gómez de Zapata | anterior: HOSP-2026-0002 (I50.0) | reingreso: HOSP-2026-0007 (I50.0) | dias_desde_alta: 15 | mismo_dx: true
+(egresos en el periodo: 29)
+
+==================== A3. Ocupacion de camas por servicio (estado actual) ====================
+servicio: MEDICINA_INTERNA | total: 12 | ocupadas: 6 | mantenimiento: 1 | ocupacion_pct: 54.5 | pacientes: [MI-201:PAC-022(7d), MI-202:PAC-007(5d), MI-203:PAC-002(4d), MI-204:PAC-006(3d), MI-205:PAC-024(1d), MI-206:PAC-025(0d)]
+servicio: PEDIATRIA | total: 6 | ocupadas: 1 | mantenimiento: 0 | ocupacion_pct: 16.7 | pacientes: [PE-101:PAC-020(6d)]
+servicio: CIRUGIA | total: 6 | ocupadas: 0 | mantenimiento: 0 | ocupacion_pct: 0 | pacientes: []
+servicio: UCI | total: 6 | ocupadas: 0 | mantenimiento: 0 | ocupacion_pct: 0 | pacientes: []
+
+==================== A4. Antibioticos (ATC J01): ordenes y dias de terapia por diagnostico principal ====================
+antibiotico: Ceftriaxona | dx: J18.9 | ordenes: 4 | dias_terapia: 23 | promedio_dias: 5.8 | suspendidas: 0
+antibiotico: Azitromicina | dx: J18.9 | ordenes: 4 | dias_terapia: 23 | promedio_dias: 5.8 | suspendidas: 0
+antibiotico: Azitromicina | dx: J44.1 | ordenes: 4 | dias_terapia: 22 | promedio_dias: 5.5 | suspendidas: 0
+antibiotico: Ampicilina/sulbactam | dx: K35.8 | ordenes: 3 | dias_terapia: 7 | promedio_dias: 2.3 | suspendidas: 0
+antibiotico: Ceftriaxona | dx: N39.0 | ordenes: 3 | dias_terapia: 7 | promedio_dias: 2.3 | suspendidas: 0
+antibiotico: Trimetoprim/sulfametoxazol | dx: N39.0 | ordenes: 1 | dias_terapia: 1 | promedio_dias: 1 | suspendidas: 0
+
+==================== A5. NEWS2 simplificado con la ultima toma de signos vitales (pacientes activos >= 16 anos) ====================
+hosp: HOSP-2026-0029 | paciente: Carmen Rosa Tobón Agudelo | edad: 61 | cama: MI-201 | news2: 11 | riesgo: ALTO - respuesta de emergencia | ultima_toma: 08-11 03:00 | signos: FC 124 FR 30 TAS 96 SpO2 88 T 38.9
+hosp: HOSP-2026-0031 | paciente: Rosa Elvira Gómez de Zapata | edad: 82 | cama: MI-202 | news2: 8 | riesgo: ALTO - respuesta de emergencia | ultima_toma: 08-11 07:40 | signos: FC 116 FR 28 TAS 165 SpO2 89 T 36.9
+hosp: HOSP-2026-0036 | paciente: Jhon Fredy Holguín Patiño | edad: 42 | cama: MI-206 | news2: 5 | riesgo: MEDIO - valoracion urgente | ultima_toma: 08-11 07:30 | signos: FC 108 FR 22 TAS 104 SpO2 97 T 38.8
+hosp: HOSP-2026-0032 | paciente: Jorge Eliécer Muñoz Pérez | edad: 75 | cama: MI-203 | news2: 0 | riesgo: BAJO - vigilancia de rutina | ultima_toma: 08-11 02:15 | signos: FC 80 FR 16 TAS 123 SpO2 97 T 36.8
+hosp: HOSP-2026-0033 | paciente: Héctor Darío Jaramillo Builes | edad: 51 | cama: MI-204 | news2: 0 | riesgo: BAJO - vigilancia de rutina | ultima_toma: 08-11 05:00 | signos: FC 78 FR 16 TAS 120 SpO2 97 T 36.8
+hosp: HOSP-2026-0035 | paciente: Paula Andrea Lemos Rivas | edad: 33 | cama: MI-205 | news2: 0 | riesgo: BAJO - vigilancia de rutina | ultima_toma: 08-11 01:45 | signos: FC 80 FR 16 TAS 123 SpO2 97 T 36.8
+
+==================== A6. Conflictos alergia-medicamento (cruce paciente x orden x catalogo) ====================
+hosp: HOSP-2026-0029 | estado_hosp: ACTIVA | paciente: PAC-022 | alergias: [Penicilina] | medicamento: Ceftriaxona | familia: BETALACTAMICO | orden: ACTIVA
+hosp: HOSP-2026-0033 | estado_hosp: ACTIVA | paciente: PAC-006 | alergias: [Sulfas] | medicamento: Trimetoprim/sulfametoxazol | familia: SULFONAMIDA | orden: ACTIVA
+hosp: HOSP-2026-0015 | estado_hosp: EGRESADA | paciente: PAC-001 | alergias: [Penicilina] | medicamento: Ceftriaxona | familia: BETALACTAMICO | orden: FINALIZADA
+hosp: HOSP-2026-0019 | estado_hosp: EGRESADA | paciente: PAC-004 | alergias: [AINEs] | medicamento: Ácido acetilsalicílico | familia: AINE | orden: FINALIZADA
+hosp: HOSP-2026-0036 | estado_hosp: ACTIVA | paciente: PAC-025 | alergias: [AINEs] | medicamento: Ibuprofeno | familia: AINE | orden: SUSPENDIDA
+
+==================== A7. Estancia (dias) y desenlace por diagnostico principal - hospitalizaciones egresadas ====================
+cie10: J44.1 | diagnostico: EPOC con exacerbación aguda | egresos: 3 | dias_cama: 18 | promedio: 6 | mediana: 6 | maximo: 7 | fallecidos: 0
+cie10: A90 | diagnostico: Dengue sin signos de alarma | egresos: 4 | dias_cama: 17 | promedio: 4.2 | mediana: 4 | maximo: 5 | fallecidos: 0
+cie10: J18.9 | diagnostico: Neumonía, no especificada | egresos: 3 | dias_cama: 16 | promedio: 5.3 | mediana: 5 | maximo: 6 | fallecidos: 0
+cie10: A91 | diagnostico: Dengue grave | egresos: 2 | dias_cama: 14 | promedio: 7 | mediana: 7 | maximo: 7 | fallecidos: 0
+cie10: I50.0 | diagnostico: Insuficiencia cardíaca congestiva | egresos: 2 | dias_cama: 13 | promedio: 6.5 | mediana: 6 | maximo: 7 | fallecidos: 0
+cie10: E11.1 | diagnostico: Diabetes mellitus tipo 2 con cetoacidosis | egresos: 2 | dias_cama: 9 | promedio: 4.5 | mediana: 4 | maximo: 5 | fallecidos: 0
+cie10: J21.9 | diagnostico: Bronquiolitis aguda, no especificada | egresos: 2 | dias_cama: 9 | promedio: 4.5 | mediana: 4 | maximo: 5 | fallecidos: 0
+cie10: A09 | diagnostico: Diarrea y gastroenteritis de presunto origen infeccioso | egresos: 3 | dias_cama: 9 | promedio: 3 | mediana: 3 | maximo: 3 | fallecidos: 0
+cie10: I21.9 | diagnostico: Infarto agudo de miocardio, sin otra especificación | egresos: 2 | dias_cama: 9 | promedio: 4.5 | mediana: 3 | maximo: 6 | fallecidos: 1
+cie10: K35.8 | diagnostico: Apendicitis aguda, otra y la no especificada | egresos: 3 | dias_cama: 7 | promedio: 2.3 | mediana: 2 | maximo: 3 | fallecidos: 0
+cie10: I10 | diagnostico: Hipertensión esencial (primaria) | egresos: 2 | dias_cama: 7 | promedio: 3.5 | mediana: 3 | maximo: 4 | fallecidos: 0
+cie10: N39.0 | diagnostico: Infección de vías urinarias, sitio no especificado | egresos: 1 | dias_cama: 3 | promedio: 3 | mediana: 3 | maximo: 3 | fallecidos: 0
+
+==================== O1. Optimizacion verificada con explain('executionStats') ====================
+V0 filtro solo tras $lookup       | resultados 5 | documentos examinados  72 | plan COLLSCAN | filtro aplicado en el cursor: {}
+V1 $lookup primero                | resultados 5 | documentos examinados  16 | plan IXSCAN | filtro aplicado en el cursor: {"diagnosticos.cie10":{"$in":["A90","A91"]}}
+V2 $match primero (sugerida)      | resultados 5 | documentos examinados  16 | plan IXSCAN | filtro aplicado en el cursor: {"diagnosticos.cie10":{"$in":["A90","A91"]}}
+Mismo resultado en las tres: true -> HOSP-2026-0001, HOSP-2026-0004, HOSP-2026-0017, HOSP-2026-0030, HOSP-2026-0036

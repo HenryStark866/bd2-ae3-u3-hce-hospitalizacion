@@ -1,0 +1,80 @@
+[
+  {
+    "_id": "A09",
+    "descripcion": "Diarrea y gastroenteritis de presunto origen infeccioso",
+    "capitulo": "Infecciosas",
+    "notificacion_obligatoria": false
+  },
+  {
+    "_id": "A90",
+    "descripcion": "Dengue sin signos de alarma",
+    "capitulo": "Infecciosas",
+    "notificacion_obligatoria": true
+  },
+  {
+    "_id": "A91",
+    "descripcion": "Dengue grave",
+    "capitulo": "Infecciosas",
+    "notificacion_obligatoria": true
+  },
+  {
+    "_id": "E11.1",
+    "descripcion": "Diabetes mellitus tipo 2 con cetoacidosis",
+    "capitulo": "Endocrino",
+    "notificacion_obligatoria": false
+  },
+  {
+    "_id": "E11.9",
+    "descripcion": "Diabetes mellitus tipo 2 sin complicaciones",
+    "capitulo": "Endocrino",
+    "notificacion_obligatoria": false
+  },
+  {
+    "_id": "I10",
+    "descripcion": "Hipertensión esencial (primaria)",
+    "capitulo": "Circulatorio",
+    "notificacion_obligatoria": false
+  },
+  {
+    "_id": "I21.9",
+    "descripcion": "Infarto agudo de miocardio, sin otra especificación",
+    "capitulo": "Circulatorio",
+    "notificacion_obligatoria": false
+  },
+  {
+    "_id": "I50.0",
+    "descripcion": "Insuficiencia cardíaca congestiva",
+    "capitulo": "Circulatorio",
+    "notificacion_obligatoria": false
+  },
+  {
+    "_id": "J18.9",
+    "descripcion": "Neumonía, no especificada",
+    "capitulo": "Respiratorio",
+    "notificacion_obligatoria": false
+  },
+  {
+    "_id": "J21.9",
+    "descripcion": "Bronquiolitis aguda, no especificada",
+    "capitulo": "Respiratorio",
+    "notificacion_obligatoria": false
+  },
+  {
+    "_id": "J44.1",
+    "descripcion": "EPOC con exacerbación aguda",
+    "capitulo": "Respiratorio",
+    "notificacion_obligatoria": false
+  },
+  {
+    "_id": "K35.8",
+    "descripcion": "Apendicitis aguda, otra y la no especificada",
+    "capitulo": "Digestivo",
+    "notificacion_obligatoria": false
+  },
+  {
+    "_id": "N39.0",
+    "descripcion": "Infección de vías urinarias, sitio no especificado",
+    "capitulo": "Genitourinario",
+    "notificacion_obligatoria": false
+  }
+]

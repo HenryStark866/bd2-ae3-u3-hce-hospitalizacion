@@ -1,0 +1,671 @@
+[
+  {
+    "_id": "PAC-001",
+    "tipo_documento": "CC",
+    "documento": "1017000001",
+    "nombres": "Gloria Inés",
+    "apellidos": "Ramírez Toro",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-372470400000"
+      }
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "O+",
+    "contacto": {
+      "municipio": "Medellín",
+      "subregion": "Valle de Aburra",
+      "telefono": "3000000001"
+    },
+    "aseguramiento": {
+      "eps": "Savia Salud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [
+      "Penicilina"
+    ],
+    "antecedentes": [
+      "Hipertensión arterial",
+      "Diabetes mellitus tipo 2"
+    ]
+  },
+  {
+    "_id": "PAC-002",
+    "tipo_documento": "CC",
+    "documento": "70050002",
+    "nombres": "Jorge Eliécer",
+    "apellidos": "Muñoz Pérez",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-573264000000"
+      }
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "A+",
+    "contacto": {
+      "municipio": "Bello",
+      "subregion": "Valle de Aburra",
+      "telefono": "3000000002"
+    },
+    "aseguramiento": {
+      "eps": "Sura",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [],
+    "antecedentes": [
+      "EPOC",
+      "Tabaquismo (40 paquetes-año)"
+    ]
+  },
+  {
+    "_id": "PAC-003",
+    "tipo_documento": "TI",
+    "documento": "1020000003",
+    "nombres": "Sara Valentina",
+    "apellidos": "Cardona Londoño",
+    "fecha_nacimiento": {
+      "$date": "2012-07-21T00:00:00Z"
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "B+",
+    "contacto": {
+      "municipio": "Itagüí",
+      "subregion": "Valle de Aburra",
+      "telefono": "3000000003",
+      "acudiente": {
+        "nombre": "Paola Londoño",
+        "parentesco": "Madre"
+      }
+    },
+    "aseguramiento": {
+      "eps": "Savia Salud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": []
+  },
+  {
+    "_id": "PAC-004",
+    "tipo_documento": "CC",
+    "documento": "98040004",
+    "nombres": "Luis Fernando",
+    "apellidos": "Arango Salazar",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-18662400000"
+      }
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "O-",
+    "contacto": {
+      "municipio": "Envigado",
+      "subregion": "Valle de Aburra",
+      "telefono": "3000000004"
+    },
+    "aseguramiento": {
+      "eps": "Sanitas",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [
+      "AINEs"
+    ],
+    "antecedentes": [
+      "Dislipidemia",
+      "Hipertensión arterial"
+    ]
+  },
+  {
+    "_id": "PAC-005",
+    "tipo_documento": "CC",
+    "documento": "43050005",
+    "nombres": "María Camila",
+    "apellidos": "Echeverri Gómez",
+    "fecha_nacimiento": {
+      "$date": "1996-09-09T00:00:00Z"
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "A-",
+    "contacto": {
+      "municipio": "Rionegro",
+      "subregion": "Oriente",
+      "telefono": "3000000005"
+    },
+    "aseguramiento": {
+      "eps": "Coosalud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": [
+      "Cesárea previa"
+    ]
+  },
+  {
+    "_id": "PAC-006",
+    "tipo_documento": "CC",
+    "documento": "15060006",
+    "nombres": "Héctor Darío",
+    "apellidos": "Jaramillo Builes",
+    "fecha_nacimiento": {
+      "$date": "1975-01-25T00:00:00Z"
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "AB+",
+    "contacto": {
+      "municipio": "Apartadó",
+      "subregion": "Uraba",
+      "telefono": "3000000006"
+    },
+    "aseguramiento": {
+      "eps": "Nueva EPS",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [
+      "Sulfas"
+    ],
+    "antecedentes": [
+      "Diabetes mellitus tipo 2"
+    ]
+  },
+  {
+    "_id": "PAC-007",
+    "tipo_documento": "CC",
+    "documento": "21070007",
+    "nombres": "Rosa Elvira",
+    "apellidos": "Gómez de Zapata",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-811209600000"
+      }
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "O+",
+    "contacto": {
+      "municipio": "Medellín",
+      "subregion": "Valle de Aburra",
+      "telefono": "3000000007"
+    },
+    "aseguramiento": {
+      "eps": "Sura",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [],
+    "antecedentes": [
+      "Insuficiencia cardíaca",
+      "Hipertensión arterial"
+    ]
+  },
+  {
+    "_id": "PAC-008",
+    "tipo_documento": "RC",
+    "documento": "1036080008",
+    "nombres": "Juan Pablo",
+    "apellidos": "Hincapié Ríos",
+    "fecha_nacimiento": {
+      "$date": "2024-06-03T00:00:00Z"
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "O+",
+    "contacto": {
+      "municipio": "Bello",
+      "subregion": "Valle de Aburra",
+      "telefono": "3000000008",
+      "acudiente": {
+        "nombre": "Yesica Ríos",
+        "parentesco": "Madre"
+      }
+    },
+    "aseguramiento": {
+      "eps": "Savia Salud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": []
+  },
+  {
+    "_id": "PAC-009",
+    "tipo_documento": "RC",
+    "documento": "1036090009",
+    "nombres": "Valentina",
+    "apellidos": "Mesa Cardona",
+    "fecha_nacimiento": {
+      "$date": "2025-02-11T00:00:00Z"
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "A+",
+    "contacto": {
+      "municipio": "Medellín",
+      "subregion": "Valle de Aburra",
+      "telefono": "3000000009",
+      "acudiente": {
+        "nombre": "Diana Cardona",
+        "parentesco": "Madre"
+      }
+    },
+    "aseguramiento": {
+      "eps": "Sura",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [],
+    "antecedentes": [
+      "Prematurez (35 semanas)"
+    ]
+  },
+  {
+    "_id": "PAC-010",
+    "tipo_documento": "CC",
+    "documento": "1045100010",
+    "nombres": "Yeison Andrés",
+    "apellidos": "Palacios Mosquera",
+    "fecha_nacimiento": {
+      "$date": "1990-10-30T00:00:00Z"
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "O+",
+    "contacto": {
+      "municipio": "Turbo",
+      "subregion": "Uraba",
+      "telefono": "3000000010"
+    },
+    "aseguramiento": {
+      "eps": "Coosalud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": []
+  },
+  {
+    "_id": "PAC-011",
+    "tipo_documento": "CC",
+    "documento": "39110011",
+    "nombres": "Luz Marina",
+    "apellidos": "Córdoba Hurtado",
+    "fecha_nacimiento": {
+      "$date": "1982-12-07T00:00:00Z"
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "B+",
+    "contacto": {
+      "municipio": "Apartadó",
+      "subregion": "Uraba",
+      "telefono": "3000000011"
+    },
+    "aseguramiento": {
+      "eps": "Nueva EPS",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": [
+      "Obesidad"
+    ]
+  },
+  {
+    "_id": "PAC-012",
+    "tipo_documento": "TI",
+    "documento": "1040120012",
+    "nombres": "Wilmar Alexis",
+    "apellidos": "Pino Durango",
+    "fecha_nacimiento": {
+      "$date": "2010-03-22T00:00:00Z"
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "O+",
+    "contacto": {
+      "municipio": "Caucasia",
+      "subregion": "Bajo Cauca",
+      "telefono": "3000000012",
+      "acudiente": {
+        "nombre": "Edilma Durango",
+        "parentesco": "Madre"
+      }
+    },
+    "aseguramiento": {
+      "eps": "Savia Salud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": []
+  },
+  {
+    "_id": "PAC-013",
+    "tipo_documento": "CC",
+    "documento": "1040130013",
+    "nombres": "Deisy Johana",
+    "apellidos": "Montes Ortega",
+    "fecha_nacimiento": {
+      "$date": "1999-08-15T00:00:00Z"
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "A+",
+    "contacto": {
+      "municipio": "Caucasia",
+      "subregion": "Bajo Cauca",
+      "telefono": "3000000013"
+    },
+    "aseguramiento": {
+      "eps": "Savia Salud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": []
+  },
+  {
+    "_id": "PAC-014",
+    "tipo_documento": "CC",
+    "documento": "8140014",
+    "nombres": "Alirio de Jesús",
+    "apellidos": "Ochoa Vargas",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-314928000000"
+      }
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "O+",
+    "contacto": {
+      "municipio": "Puerto Berrío",
+      "subregion": "Magdalena Medio",
+      "telefono": "3000000014"
+    },
+    "aseguramiento": {
+      "eps": "Nueva EPS",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": [
+      "Hipertensión arterial"
+    ]
+  },
+  {
+    "_id": "PAC-015",
+    "tipo_documento": "CC",
+    "documento": "3150015",
+    "nombres": "Gustavo Adolfo",
+    "apellidos": "Higuita Torres",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-426470400000"
+      }
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "A+",
+    "contacto": {
+      "municipio": "Santa Fe de Antioquia",
+      "subregion": "Occidente",
+      "telefono": "3000000015"
+    },
+    "aseguramiento": {
+      "eps": "Savia Salud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": [
+      "Hipertensión arterial",
+      "Diabetes mellitus tipo 2",
+      "Tabaquismo"
+    ]
+  },
+  {
+    "_id": "PAC-016",
+    "tipo_documento": "CC",
+    "documento": "1036160016",
+    "nombres": "Natalia",
+    "apellidos": "Villegas Arango",
+    "fecha_nacimiento": {
+      "$date": "2001-05-05T00:00:00Z"
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "B-",
+    "contacto": {
+      "municipio": "Envigado",
+      "subregion": "Valle de Aburra",
+      "telefono": "3000000016"
+    },
+    "aseguramiento": {
+      "eps": "Sura",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [
+      "Quinolonas"
+    ],
+    "antecedentes": []
+  },
+  {
+    "_id": "PAC-017",
+    "tipo_documento": "CC",
+    "documento": "1036170017",
+    "nombres": "Esteban",
+    "apellidos": "Gallego Marín",
+    "fecha_nacimiento": {
+      "$date": "1988-11-19T00:00:00Z"
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "O+",
+    "contacto": {
+      "municipio": "Rionegro",
+      "subregion": "Oriente",
+      "telefono": "3000000017"
+    },
+    "aseguramiento": {
+      "eps": "Sura",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [],
+    "antecedentes": []
+  },
+  {
+    "_id": "PAC-018",
+    "tipo_documento": "CC",
+    "documento": "32180018",
+    "nombres": "Martha Lucía",
+    "apellidos": "Álvarez Restrepo",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-607651200000"
+      }
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "A+",
+    "contacto": {
+      "municipio": "Itagüí",
+      "subregion": "Valle de Aburra",
+      "telefono": "3000000018"
+    },
+    "aseguramiento": {
+      "eps": "Sanitas",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [],
+    "antecedentes": [
+      "Diabetes mellitus tipo 2",
+      "Hipertensión arterial"
+    ]
+  },
+  {
+    "_id": "PAC-019",
+    "tipo_documento": "CC",
+    "documento": "3190019",
+    "nombres": "Ramiro",
+    "apellidos": "Castaño Giraldo",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-722044800000"
+      }
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "O+",
+    "contacto": {
+      "municipio": "Marinilla",
+      "subregion": "Oriente",
+      "telefono": "3000000019"
+    },
+    "aseguramiento": {
+      "eps": "Nueva EPS",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [],
+    "antecedentes": [
+      "EPOC",
+      "Tabaquismo (35 paquetes-año)"
+    ]
+  },
+  {
+    "_id": "PAC-020",
+    "tipo_documento": "TI",
+    "documento": "1045200020",
+    "nombres": "Ana Sofía",
+    "apellidos": "Rentería Asprilla",
+    "fecha_nacimiento": {
+      "$date": "2016-01-28T00:00:00Z"
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "O+",
+    "contacto": {
+      "municipio": "Turbo",
+      "subregion": "Uraba",
+      "telefono": "3000000020",
+      "acudiente": {
+        "nombre": "Luz Asprilla",
+        "parentesco": "Madre"
+      }
+    },
+    "aseguramiento": {
+      "eps": "Coosalud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": []
+  },
+  {
+    "_id": "PAC-021",
+    "tipo_documento": "RC",
+    "documento": "1045210021",
+    "nombres": "Sebastián",
+    "apellidos": "Cuesta Moreno",
+    "fecha_nacimiento": {
+      "$date": "2020-09-12T00:00:00Z"
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "A+",
+    "contacto": {
+      "municipio": "Apartadó",
+      "subregion": "Uraba",
+      "telefono": "3000000021",
+      "acudiente": {
+        "nombre": "Sandra Moreno",
+        "parentesco": "Madre"
+      }
+    },
+    "aseguramiento": {
+      "eps": "Nueva EPS",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": []
+  },
+  {
+    "_id": "PAC-022",
+    "tipo_documento": "CC",
+    "documento": "42220022",
+    "nombres": "Carmen Rosa",
+    "apellidos": "Tobón Agudelo",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-141609600000"
+      }
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "B+",
+    "contacto": {
+      "municipio": "Medellín",
+      "subregion": "Valle de Aburra",
+      "telefono": "3000000022"
+    },
+    "aseguramiento": {
+      "eps": "Savia Salud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [
+      "Penicilina"
+    ],
+    "antecedentes": [
+      "Diabetes mellitus tipo 2"
+    ]
+  },
+  {
+    "_id": "PAC-023",
+    "tipo_documento": "CC",
+    "documento": "71230023",
+    "nombres": "Óscar Iván",
+    "apellidos": "Zuluaga Henao",
+    "fecha_nacimiento": {
+      "$date": "1979-03-03T00:00:00Z"
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "O-",
+    "contacto": {
+      "municipio": "Bello",
+      "subregion": "Valle de Aburra",
+      "telefono": "3000000023"
+    },
+    "aseguramiento": {
+      "eps": "Sura",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [],
+    "antecedentes": [
+      "Hipertensión arterial"
+    ]
+  },
+  {
+    "_id": "PAC-024",
+    "tipo_documento": "CC",
+    "documento": "1045240024",
+    "nombres": "Paula Andrea",
+    "apellidos": "Lemos Rivas",
+    "fecha_nacimiento": {
+      "$date": "1993-12-24T00:00:00Z"
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "A+",
+    "contacto": {
+      "municipio": "Turbo",
+      "subregion": "Uraba",
+      "telefono": "3000000024"
+    },
+    "aseguramiento": {
+      "eps": "Coosalud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": []
+  },
+  {
+    "_id": "PAC-025",
+    "tipo_documento": "CC",
+    "documento": "1001250025",
+    "nombres": "Jhon Fredy",
+    "apellidos": "Holguín Patiño",
+    "fecha_nacimiento": {
+      "$date": "1984-02-17T00:00:00Z"
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "O+",
+    "contacto": {
+      "municipio": "Necoclí",
+      "subregion": "Uraba",
+      "telefono": "3125550025",
+      "acudiente": {
+        "nombre": "Marleny Patiño",
+        "parentesco": "Madre"
+      }
+    },
+    "aseguramiento": {
+      "eps": "Coosalud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [
+      "AINEs"
+    ],
+    "antecedentes": []
+  }
+]

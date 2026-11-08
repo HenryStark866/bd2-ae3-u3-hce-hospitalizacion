@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "CI-301",
+    "ips": "Hospital San Juan de Dios Rionegro",
+    "servicio": "CIRUGIA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "CI-302",
+    "ips": "Hospital San Juan de Dios Rionegro",
+    "servicio": "CIRUGIA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "CI-303",
+    "ips": "Hospital San Juan de Dios Rionegro",
+    "servicio": "CIRUGIA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "CI-304",
+    "ips": "Hospital San Juan de Dios Rionegro",
+    "servicio": "CIRUGIA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "CI-305",
+    "ips": "Hospital San Juan de Dios Rionegro",
+    "servicio": "CIRUGIA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "CI-306",
+    "ips": "Hospital San Juan de Dios Rionegro",
+    "servicio": "CIRUGIA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "MI-201",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "estado": "OCUPADA",
+    "hospitalizacion_id": "HOSP-2026-0029",
+    "temporal": false
+  },
+  {
+    "_id": "MI-202",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "estado": "OCUPADA",
+    "hospitalizacion_id": "HOSP-2026-0031",
+    "temporal": false
+  },
+  {
+    "_id": "MI-203",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "estado": "OCUPADA",
+    "hospitalizacion_id": "HOSP-2026-0032",
+    "temporal": false
+  },
+  {
+    "_id": "MI-204",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "estado": "OCUPADA",
+    "hospitalizacion_id": "HOSP-2026-0033",
+    "temporal": false
+  },
+  {
+    "_id": "MI-205",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "estado": "OCUPADA",
+    "hospitalizacion_id": "HOSP-2026-0035",
+    "temporal": false
+  },
+  {
+    "_id": "MI-206",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "estado": "OCUPADA",
+    "hospitalizacion_id": "HOSP-2026-0036",
+    "temporal": false
+  },
+  {
+    "_id": "MI-207",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "MI-208",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "MI-209",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "MI-210",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "MI-211",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "MI-212",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "estado": "MANTENIMIENTO",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "PE-101",
+    "ips": "Hospital Infantil Concejo de Medellín",
+    "servicio": "PEDIATRIA",
+    "estado": "OCUPADA",
+    "hospitalizacion_id": "HOSP-2026-0030",
+    "temporal": false
+  },
+  {
+    "_id": "PE-102",
+    "ips": "Hospital Infantil Concejo de Medellín",
+    "servicio": "PEDIATRIA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "PE-103",
+    "ips": "Hospital Infantil Concejo de Medellín",
+    "servicio": "PEDIATRIA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "PE-104",
+    "ips": "Hospital Infantil Concejo de Medellín",
+    "servicio": "PEDIATRIA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "PE-105",
+    "ips": "Hospital Infantil Concejo de Medellín",
+    "servicio": "PEDIATRIA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "PE-106",
+    "ips": "Hospital Infantil Concejo de Medellín",
+    "servicio": "PEDIATRIA",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "UCI-01",
+    "ips": "Clínica Cardiovascular de Antioquia",
+    "servicio": "UCI",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "UCI-02",
+    "ips": "Clínica Cardiovascular de Antioquia",
+    "servicio": "UCI",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "UCI-03",
+    "ips": "Clínica Cardiovascular de Antioquia",
+    "servicio": "UCI",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "UCI-04",
+    "ips": "Clínica Cardiovascular de Antioquia",
+    "servicio": "UCI",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "UCI-05",
+    "ips": "Clínica Cardiovascular de Antioquia",
+    "servicio": "UCI",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  },
+  {
+    "_id": "UCI-06",
+    "ips": "Clínica Cardiovascular de Antioquia",
+    "servicio": "UCI",
+    "estado": "DISPONIBLE",
+    "hospitalizacion_id": null,
+    "temporal": false
+  }
+]

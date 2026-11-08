@@ -1,0 +1,101 @@
+
+==================== C1. insertOne: nuevo paciente (validado por $jsonSchema) ====================
+insertedId: PAC-025
+
+==================== C2. Admision: reservar cama libre de forma atomica (findOneAndUpdate) + insertOne ====================
+Cama asignada: MI-206 -> OCUPADA
+Hospitalizacion creada: HOSP-2026-0036
+
+==================== C3. insertOne invalido: el validador lo rechaza ====================
+Rechazado -> codigo 121 (DocumentValidationFailure). Reglas incumplidas:
+  - documento  (pattern)
+  - fecha_nacimiento  (bsonType)
+  - sexo  (enum)
+  - contacto  (required)
+  - aseguramiento  (required)
+
+==================== R1. find con filtros anidados: pacientes activos de Medicina Interna con diabetes (E11.*) ====================
+HOSP-2026-0029  PAC-022  cama MI-201  dx: J18.9/INGRESO, J18.9/PRINCIPAL, E11.9/RELACIONADO
+HOSP-2026-0033  PAC-006  cama MI-204  dx: N39.0/INGRESO, N39.0/PRINCIPAL, E11.9/RELACIONADO
+
+==================== R2. findOne con $slice: ultimas 2 tomas de signos vitales de HOSP-2026-0031 ====================
+{
+  paciente_id: 'PAC-007',
+  servicio: 'MEDICINA_INTERNA',
+  signos_vitales: [
+    {
+      fecha: ISODate('2026-11-07T23:40:00.000Z'),
+      fc: 119,
+      fr: 28,
+      ta_sistolica: 170,
+      ta_diastolica: 98,
+      temperatura: 36.9,
+      spo2: 89,
+      registrado_por: 'ENF-003'
+    },
+    {
+      fecha: ISODate('2026-11-08T07:40:00.000Z'),
+      fc: 116,
+      fr: 28,
+      ta_sistolica: 165,
+      ta_diastolica: 98,
+      temperatura: 36.9,
+      spo2: 89,
+      registrado_por: 'ENF-001'
+    }
+  ]
+}
+
+==================== U1. Campo simple y anidado: telefono (contacto.telefono) y $addToSet de alergia ====================
+matched 1, modified 1
+{
+  contacto: {
+    municipio: 'Necoclí',
+    subregion: 'Uraba',
+    telefono: '3125550025',
+    acudiente: {
+      nombre: 'Marleny Patiño',
+      parentesco: 'Madre'
+    }
+  },
+  alergias: [
+    'AINEs'
+  ]
+}
+
+==================== U2. $push en arreglos embebidos: nota de evolucion, diagnostico y ordenes (con $each) ====================
+modified 1 -> ordenes ahora: Acetaminofén (ACTIVA), Ibuprofeno (ACTIVA)
+
+==================== U3. arrayFilters: suspender ordenes que chocan con la alergia del paciente ====================
+  Acetaminofén  ACTIVA      
+  Ibuprofeno    SUSPENDIDA  Alergia a AINEs y contraindicación en dengue
+
+==================== U4. Operador posicional $: corregir el diagnostico de INGRESO ====================
+modified 1 -> Infección de vías urinarias (pielonefritis aguda)
+
+==================== U5. updateMany: marcar notificacion SIVIGILA en todos los casos de dengue (A90/A91) ====================
+codigos notificables: A90, A91 | matched 8, modified 8
+
+==================== U6. Alta: $set del subdocumento alta + $push dx de egreso + liberar la cama ====================
+hospitalizacion modified 1 | cama CI-301 -> DISPONIBLE
+
+==================== D1. Borrado LOGICO (soft delete): registro duplicado de paciente ====================
+marcado eliminado: 1
+pacientes totales: 26 | vigentes: 25
+
+==================== D2. $pull: retirar una toma de signos vitales registrada en la historia equivocada ====================
+tomas antes: 2
+tomas despues: 1
+
+==================== D3. Borrado DEFINITIVO: deleteOne del duplicado (sin contenido clinico) y deleteMany de camas temporales ====================
+PAC-026 tenia hospitalizaciones: false -> deletedCount 1
+camas con temporales: 33
+deleteMany camas temporales: 3 | camas ahora: 30
+
+==================== Resumen: trazabilidad en la coleccion auditoria ====================
+Registros de auditoria generados por este script: 13
+  HARD_DELETE 2
+  INSERT      3
+  PULL        1
+  SOFT_DELETE 1
+  UPDATE      6

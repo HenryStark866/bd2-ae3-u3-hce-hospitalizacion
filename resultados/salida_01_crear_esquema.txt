@@ -1,0 +1,23 @@
+Base de datos 'hce_hospitalizacion_u3' creada. Colecciones:
+[
+  'auditoria',
+  'camas',
+  'catalogo_cie10',
+  'catalogo_medicamentos',
+  'hospitalizaciones',
+  'pacientes',
+  'profesionales'
+]
+Indices:
+  pacientes         _id_
+  pacientes         ux_documento
+  pacientes         ix_territorio
+  hospitalizaciones _id_
+  hospitalizaciones ix_paciente_fecha
+  hospitalizaciones ix_diagnostico
+  hospitalizaciones ix_estado_servicio
+  hospitalizaciones ix_medicamento
+  camas             _id_
+  camas             ix_cama_servicio_estado
+  auditoria         _id_
+  auditoria         ix_auditoria_doc

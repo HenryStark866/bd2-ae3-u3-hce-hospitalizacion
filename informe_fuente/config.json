@@ -1,0 +1,24 @@
+{
+  "grupo": "1",
+  "actividad": "AE3_U3",
+  "modalidad": "Trabajo individual",
+  "fecha": "8 de noviembre de 2026",
+  "video_url": "",
+  "repositorio_url": "https://github.com/HenryStark866/bd2-ae3-u3-hce-hospitalizacion",
+  "integrantes": [
+    {
+      "nombre": "Henry Taborda",
+      "rol": "Diseño del modelo, CRUD, consultas avanzadas, evidencia de IA, reflexión ética, informe y video",
+      "consultas": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "O1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Carga completada:
+  catalogo_cie10          13
+  catalogo_medicamentos   17
+  profesionales           9
+  pacientes               24
+  camas                   30
+  hospitalizaciones       35
+  auditoria               0
+  -> 7 hospitalizaciones activas, 491 tomas de signos vitales, 104 notas de evolucion, 86 ordenes, 114 diagnosticos
+  -> camas ocupadas: 7 / 30

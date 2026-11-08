@@ -1,0 +1,91 @@
+mongosh> db.version()
+8.3.7
+
+mongosh> show collections
+auditoria               13 docs
+camas                   30 docs
+catalogo_cie10          13 docs
+catalogo_medicamentos   17 docs
+hospitalizaciones       36 docs
+pacientes               25 docs
+profesionales           9 docs
+
+mongosh> db.hospitalizaciones.findOne({_id:"HOSP-2026-0030"}, {signos_vitales:{$slice:1}, notas_evolucion:{$slice:1}, notas_enfermeria:0})
+{
+  _id: 'HOSP-2026-0030',
+  paciente_id: 'PAC-020',
+  medico_tratante_id: 'PRO-005',
+  ips: 'Hospital Infantil Concejo de Medellín',
+  servicio: 'PEDIATRIA',
+  cama: 'PE-101',
+  fecha_admision: ISODate('2026-11-02T14:30:00.000Z'),
+  via_ingreso: 'URGENCIAS',
+  motivo_ingreso: 'Fiebre alta, cefalea retroocular y mialgias',
+  estado: 'ACTIVA',
+  diagnosticos: [
+    {
+      cie10: 'A90',
+      descripcion: 'Dengue sin signos de alarma',
+      tipo: 'INGRESO',
+      fecha: ISODate('2026-11-02T14:30:00.000Z')
+    },
+    {
+      cie10: 'A90',
+      descripcion: 'Dengue sin signos de alarma',
+      tipo: 'PRINCIPAL',
+      fecha: ISODate('2026-11-02T17:30:00.000Z')
+    }
+  ],
+  notas_evolucion: [
+    {
+      fecha: ISODate('2026-11-02T17:30:00.000Z'),
+      profesional_id: 'PRO-005',
+      subjetivo: 'Fiebre de 4 días.',
+      objetivo: 'Plaquetas 85.000, hematocrito 42 %.',
+      analisis: 'Dengue sin signos de alarma, grupo B.',
+      plan: 'Hidratación, vigilancia de plaquetas, evitar AINE.'
+    }
+  ],
+  signos_vitales: [
+    {
+      fecha: ISODate('2026-11-02T15:30:00.000Z'),
+      fc: 100,
+      fr: 20,
+      ta_sistolica: 105,
+      ta_diastolica: 68,
+      temperatura: 39.2,
+      spo2: 98,
+      registrado_por: 'ENF-001'
+    }
+  ],
+  ordenes_medicamentos: [
+    {
+      medicamento_id: 'MED-009',
+      nombre: 'Lactato de Ringer',
+      dosis: 'mantenimiento según peso (Holliday-Segar)',
+      via: 'IV',
+      frecuencia: 'cada 8 horas',
+      fecha_inicio: ISODate('2026-11-02T15:30:00.000Z'),
+      fecha_fin: null,
+      prescriptor_id: 'PRO-005',
+      estado: 'ACTIVA'
+    },
+    {
+      medicamento_id: 'MED-010',
+      nombre: 'Acetaminofén',
+      dosis: '15 mg/kg',
+      via: 'VO',
+      frecuencia: 'cada 6 horas si fiebre',
+      fecha_inicio: ISODate('2026-11-02T15:30:00.000Z'),
+      fecha_fin: null,
+      prescriptor_id: 'PRO-005',
+      estado: 'ACTIVA'
+    }
+  ],
+  alta: null,
+  notificacion_sivigila: {
+    notificado: true,
+    fecha: ISODate('2026-11-08T23:18:11.941Z'),
+    ficha: '210-0030'
+  }
+}

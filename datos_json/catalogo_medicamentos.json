@@ -1,0 +1,138 @@
+[
+  {
+    "_id": "MED-001",
+    "nombre_generico": "Ceftriaxona",
+    "atc": "J01DD04",
+    "forma": "Polvo inyectable",
+    "concentracion": "1 g",
+    "familia_alergia": "BETALACTAMICO"
+  },
+  {
+    "_id": "MED-002",
+    "nombre_generico": "Azitromicina",
+    "atc": "J01FA10",
+    "forma": "Tableta",
+    "concentracion": "500 mg",
+    "familia_alergia": "MACROLIDO"
+  },
+  {
+    "_id": "MED-003",
+    "nombre_generico": "Salbutamol",
+    "atc": "R03AC02",
+    "forma": "Inhalador",
+    "concentracion": "100 mcg/dosis",
+    "familia_alergia": null
+  },
+  {
+    "_id": "MED-004",
+    "nombre_generico": "Prednisolona",
+    "atc": "H02AB06",
+    "forma": "Tableta",
+    "concentracion": "50 mg",
+    "familia_alergia": null
+  },
+  {
+    "_id": "MED-005",
+    "nombre_generico": "Insulina cristalina",
+    "atc": "A10AB01",
+    "forma": "Solución inyectable",
+    "concentracion": "100 UI/mL",
+    "familia_alergia": null
+  },
+  {
+    "_id": "MED-006",
+    "nombre_generico": "Enoxaparina",
+    "atc": "B01AB05",
+    "forma": "Jeringa prellenada",
+    "concentracion": "40 mg",
+    "familia_alergia": null
+  },
+  {
+    "_id": "MED-007",
+    "nombre_generico": "Ácido acetilsalicílico",
+    "atc": "B01AC06",
+    "forma": "Tableta",
+    "concentracion": "100 mg",
+    "familia_alergia": "AINE"
+  },
+  {
+    "_id": "MED-008",
+    "nombre_generico": "Losartán",
+    "atc": "C09CA01",
+    "forma": "Tableta",
+    "concentracion": "50 mg",
+    "familia_alergia": null
+  },
+  {
+    "_id": "MED-009",
+    "nombre_generico": "Lactato de Ringer",
+    "atc": "B05BB01",
+    "forma": "Solución IV",
+    "concentracion": "1000 mL",
+    "familia_alergia": null
+  },
+  {
+    "_id": "MED-010",
+    "nombre_generico": "Acetaminofén",
+    "atc": "N02BE01",
+    "forma": "Tableta",
+    "concentracion": "500 mg",
+    "familia_alergia": null
+  },
+  {
+    "_id": "MED-011",
+    "nombre_generico": "Ciprofloxacino",
+    "atc": "J01MA02",
+    "forma": "Tableta",
+    "concentracion": "500 mg",
+    "familia_alergia": "QUINOLONA"
+  },
+  {
+    "_id": "MED-012",
+    "nombre_generico": "Metformina",
+    "atc": "A10BA02",
+    "forma": "Tableta",
+    "concentracion": "850 mg",
+    "familia_alergia": null
+  },
+  {
+    "_id": "MED-013",
+    "nombre_generico": "Ampicilina/sulbactam",
+    "atc": "J01CR01",
+    "forma": "Polvo inyectable",
+    "concentracion": "1.5 g",
+    "familia_alergia": "BETALACTAMICO"
+  },
+  {
+    "_id": "MED-014",
+    "nombre_generico": "Furosemida",
+    "atc": "C03CA01",
+    "forma": "Solución inyectable",
+    "concentracion": "20 mg/2 mL",
+    "familia_alergia": "SULFONAMIDA"
+  },
+  {
+    "_id": "MED-015",
+    "nombre_generico": "Trimetoprim/sulfametoxazol",
+    "atc": "J01EE01",
+    "forma": "Tableta",
+    "concentracion": "160/800 mg",
+    "familia_alergia": "SULFONAMIDA"
+  },
+  {
+    "_id": "MED-016",
+    "nombre_generico": "Ibuprofeno",
+    "atc": "M01AE01",
+    "forma": "Tableta",
+    "concentracion": "400 mg",
+    "familia_alergia": "AINE"
+  },
+  {
+    "_id": "MED-017",
+    "nombre_generico": "Atorvastatina",
+    "atc": "C10AA05",
+    "forma": "Tableta",
+    "concentracion": "40 mg",
+    "familia_alergia": null
+  }
+]

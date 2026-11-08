@@ -1,0 +1,171 @@
+[
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45cc"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.256Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "INSERT",
+    "coleccion": "pacientes",
+    "documento_id": "PAC-025",
+    "detalle": "Registro de paciente nuevo"
+  },
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45cd"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.264Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "INSERT",
+    "coleccion": "hospitalizaciones",
+    "documento_id": "HOSP-2026-0036",
+    "detalle": "Admision por remision, cama MI-206"
+  },
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45ce"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.277Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "UPDATE",
+    "coleccion": "pacientes",
+    "documento_id": "PAC-025",
+    "detalle": "Telefono, acudiente y alergia a AINEs"
+  },
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45cf"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.284Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "UPDATE",
+    "coleccion": "hospitalizaciones",
+    "documento_id": "HOSP-2026-0036",
+    "detalle": "Nota de evolucion, dx principal y 2 ordenes"
+  },
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45d0"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.289Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "UPDATE",
+    "coleccion": "hospitalizaciones",
+    "documento_id": "HOSP-2026-0036",
+    "detalle": "Suspension de AINE por alergia"
+  },
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45d1"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.295Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "UPDATE",
+    "coleccion": "hospitalizaciones",
+    "documento_id": "HOSP-2026-0033",
+    "detalle": "Descripcion del dx de ingreso"
+  },
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45d2"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.302Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "UPDATE",
+    "coleccion": "hospitalizaciones",
+    "documento_id": "*",
+    "detalle": "Notificacion SIVIGILA de 8 casos de dengue"
+  },
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45d3"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.306Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "UPDATE",
+    "coleccion": "hospitalizaciones",
+    "documento_id": "HOSP-2026-0034",
+    "detalle": "Egreso y liberacion de cama CI-301"
+  },
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45d4"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.310Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "INSERT",
+    "coleccion": "pacientes",
+    "documento_id": "PAC-026",
+    "detalle": "Registro creado por error en admision (TI en vez de CC)"
+  },
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45d5"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.312Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "SOFT_DELETE",
+    "coleccion": "pacientes",
+    "documento_id": "PAC-026",
+    "detalle": "Duplicado de PAC-025"
+  },
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45d6"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.323Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "PULL",
+    "coleccion": "hospitalizaciones",
+    "documento_id": "HOSP-2026-0036",
+    "detalle": "Toma de signos vitales de otro paciente retirada"
+  },
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45d7"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.335Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "HARD_DELETE",
+    "coleccion": "pacientes",
+    "documento_id": "PAC-026",
+    "detalle": "Duplicado sin hospitalizaciones, eliminado definitivamente"
+  },
+  {
+    "_id": {
+      "$oid": "6af1071923985f6a574d45d8"
+    },
+    "fecha": {
+      "$date": "2026-11-08T23:34:49.345Z"
+    },
+    "usuario": "henry.taborda",
+    "accion": "HARD_DELETE",
+    "coleccion": "camas",
+    "documento_id": "UCI-07..09",
+    "detalle": "Fin de la contingencia por dengue"
+  }
+]
